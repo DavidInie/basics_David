@@ -1,16 +1,17 @@
 body {
     display: flex;
-    justify-content: center; /* Centra el contingut horitzontalment */
-    align-items: center; /* Centra el contingut verticalment */
-    min-height: 100vh; /* Ocupa tota l'altura de la pantalla */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
     margin: 0;
-    background-color: #111; /* Color de fons negre */
+    background-color: #111; /* Color de fondo negro */
 }
 
-.margenes {
-    width: 400px; /* Amplada fixa del contingut */
-    background-color: white; /* Color de fons blanc */
-    padding: 20px; /* Espaiat intern */
-    border-radius: 10px; /* Cantonades arrodonides */
-    margin: 33px; /* Aplica el marge de 33px a tots els costats */
+.margen {
+    width: 400px; /* Ajusta el ancho para que se parezca a la captura */
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 33px; /* Margen alrededor del contenido */
+    text-align: center; /* Centra el texto */
 }
