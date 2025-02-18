@@ -1,3 +1,16 @@
-.element {
-    margin: 33px 33px 33px 33px;
+body {
+    display: flex;
+    justify-content: center; /* Centra el contingut horitzontalment */
+    align-items: center; /* Centra el contingut verticalment */
+    min-height: 100vh; /* Ocupa tota l'altura de la pantalla */
+    margin: 0;
+    background-color: #111; /* Color de fons negre */
+}
+
+.margenes {
+    width: 400px; /* Amplada fixa del contingut */
+    background-color: white; /* Color de fons blanc */
+    padding: 20px; /* Espaiat intern */
+    border-radius: 10px; /* Cantonades arrodonides */
+    margin: 33px; /* Aplica el marge de 33px a tots els costats */
 }
