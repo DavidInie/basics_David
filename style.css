@@ -1,4 +1,7 @@
 body {
+    background-color: red !important;
+}
+body {
     display: flex;
     justify-content: center; /* Centra el contingut horitzontalment */
     align-items: center; /* Centra el contingut verticalment */
