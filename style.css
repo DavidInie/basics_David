@@ -40,13 +40,6 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0; /* Elimina cualquier margen extra */
-    position: absolute;
-    bottom: 0;
-    left: 0;
-   /* width: 100%;
-    height: auto;
-    display: block;
     margin-top: 5%; /* Se pega abajo */
-   /*margin-bottom: 5%;*/ /* Elimina margen inferior */
+    margin-bottom: 5%; /* Elimina margen inferior */
 }
