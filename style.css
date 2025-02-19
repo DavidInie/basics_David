@@ -5,7 +5,7 @@ a {
 /* Establecer márgenes laterales y centrar el contenido */
 .margen {
     margin: 0 auto; /* Centra el div horizontalmente */
-    width: 80%; /* Ajusta el ancho del contenido (puedes cambiar el valor según prefieras) */
+    width: 50%; /* Ajusta el ancho del contenido (puedes cambiar el valor según prefieras) */
     text-align: center; /* Centra el texto dentro del div */
 }
 
