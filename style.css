@@ -6,7 +6,7 @@ a {
 
 /* Fondo negro en los márgenes laterales */
 body {
-    background-color: black; /* Fondo negro en toda la página */
+    background-color: rgb(51, 51, 51); /* Fondo negro en toda la página */
     margin: 0; /* Elimina márgenes por defecto del navegador */
     padding: 0;
 }
@@ -22,6 +22,15 @@ body {
 }
 
 /* Centrar las imágenes */
+
+.margen img:first-of-type {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+
+
+
 img {
     display: block;
     margin: 20px auto;
