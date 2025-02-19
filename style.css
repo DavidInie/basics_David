@@ -23,8 +23,8 @@ body {
     width: 100%;
     /*height: auto;*/
    /* display: block;*/
-    margin: 10%; /* Elimina márgenes */
-    padding: 5%;
+    margin: 10px; /* Elimina márgenes */
+    padding: 5px;
 }
 
 
@@ -41,5 +41,5 @@ body {
     height: auto;
     display: block;
     margin-top: 5%; /* Se pega abajo */
-    margin-bottom: 0; /* Elimina margen inferior */
+    margin-bottom: 5%; /* Elimina margen inferior */
 }
