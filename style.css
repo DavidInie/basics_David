@@ -2,17 +2,29 @@ a {
     color: rgb(0, 223, 216); /* Color turquesa para los enlaces*/
     text-decoration: none; /* Quita el subrayado */
 }
-/* Establecer márgenes laterales y centrar el contenido */
+
+
+/* Fondo negro en los márgenes laterales */
+body {
+    background-color: black; /* Fondo negro en toda la página */
+    margin: 0; /* Elimina márgenes por defecto del navegador */
+    padding: 0;
+}
+
+/* Contenido central con márgenes laterales visibles */
 .margen {
     margin: 0 auto; /* Centra el div horizontalmente */
-    width: 33%; /* Ajusta el ancho del contenido (puedes cambiar el valor según prefieras) */
-    text-align: justify; /* Centra el texto dentro del div */
+    width: 33%; /* Ajusta el ancho del contenido (modifica este valor si quieres más o menos margen) */
+    background-color: white; /* Color de fondo del área de contenido */
+    text-align: justify; /* Justifica el texto */
+    padding: 20px; /* Añade espacio dentro del contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra opcional para destacar el contenido */
 }
 
 /* Centrar las imágenes */
 img {
-    display: block; /* Convierte la imagen en un bloque para poder centrarla */
-    margin: 20px auto; /* Añade margen arriba/abajo y centra horizontalmente */
-    max-width: 100%; /* Hace que la imagen no se desborde del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
 }
