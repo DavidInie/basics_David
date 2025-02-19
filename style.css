@@ -18,17 +18,13 @@ body {
     background-color: white; /* Color de fondo del área de contenido */
     text-align: justify; /* Justifica el texto */
     padding: 20px; /* Añade espacio dentro del contenedor */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra opcional para destacar el contenido */
 }
 
-/* Centrar las imágenes */
 
 .img1 {
     width: 100%; /* Ocupa todo el ancho del contenedor */
     height: auto; /* Mantiene la proporción original de la imagen */
 }
-
-
 
 
 img {
