@@ -24,8 +24,6 @@ body {
 .Primerafoto {
     width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto 20px auto; /* Añade margen inferior */
 }
 
 /* Segunda imagen: se queda como está */
