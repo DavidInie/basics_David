@@ -2,3 +2,17 @@ a {
     color: rgb(0, 223, 216); /* Color turquesa para los enlaces*/
     text-decoration: none; /* Quita el subrayado */
 }
+/* Establecer márgenes laterales y centrar el contenido */
+.margen {
+    margin: 0 auto; /* Centra el div horizontalmente */
+    width: 80%; /* Ajusta el ancho del contenido (puedes cambiar el valor según prefieras) */
+    text-align: center; /* Centra el texto dentro del div */
+}
+
+/* Centrar las imágenes */
+img {
+    display: block; /* Convierte la imagen en un bloque para poder centrarla */
+    margin: 20px auto; /* Añade margen arriba/abajo y centra horizontalmente */
+    max-width: 100%; /* Hace que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
