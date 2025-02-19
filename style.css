@@ -20,13 +20,14 @@ body {
     position: relative;
 }
 
-/* Primera imagen: ocupa todo el ancho del contenedor */
 .Primerafoto {
     width: 100%;
     height: auto;
+    display: block;
+    margin: 0; /* Elimina márgenes adicionales */
 }
 
-/* Segunda imagen: se queda como está */
+/* Segunda imagen: mantiene el comportamiento original */
 .Segundafoto {
     display: block;
     margin: 20px auto;
@@ -34,10 +35,11 @@ body {
     height: auto;
 }
 
-/* Tercera imagen: pegada abajo del contenedor */
+/* Tercera imagen: pegar al fondo del contenedor */
 .Tercerafoto {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0; /* Quita el margen inferior para que quede pegada al final */
+    margin-top: 0; /* Asegura que esté pegada al fondo */
+    margin-bottom: 0; /* Elimina cualquier margen inferior */
 }
