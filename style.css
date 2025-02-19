@@ -23,8 +23,8 @@ body {
     width: 100%;
     /*height: auto;*/
    /* display: block;*/
-    margin: 0%; /* Elimina márgenes */
-    padding: 0%;
+    margin: 10%; /* Elimina márgenes */
+    padding: 10%;
 }
 
 
@@ -40,6 +40,6 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    margin-top: 10%; /* Se pega abajo */
+    margin-top: 50%; /* Se pega abajo */
     margin-bottom: 0; /* Elimina margen inferior */
 }
