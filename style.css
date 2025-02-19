@@ -13,23 +13,23 @@ body {
 /* Contenido central con márgenes laterales visibles */
 .margen {
     margin: 0 auto;
-    width: 33%;
+    width: 80%; /* Ajusta el ancho del contenedor */
     background-color: white;
     text-align: justify;
     padding: 20px;
-    position: relative; /* Necesario para posicionar la última imagen abajo */
+    position: relative;
 }
 
 /* Primera imagen: ocupa todo el ancho del contenedor */
-.margen img:first-of-type {
+.Primerafoto {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 20px auto; /* Añade margen inferior y centra horizontalmente */
+    margin: 0 auto 20px auto; /* Añade margen inferior */
 }
 
 /* Segunda imagen: se queda como está */
-.margen img:nth-of-type(2) {
+.Segundafoto {
     display: block;
     margin: 20px auto;
     max-width: 100%;
@@ -37,7 +37,7 @@ body {
 }
 
 /* Tercera imagen: pegada abajo del contenedor */
-.margen img:last-of-type {
+.Tercerafoto {
     width: 100%;
     height: auto;
     display: block;
