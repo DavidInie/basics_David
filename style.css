@@ -6,7 +6,7 @@ a {
 .margen {
     margin: 0 auto; /* Centra el div horizontalmente */
     width: 33%; /* Ajusta el ancho del contenido (puedes cambiar el valor según prefieras) */
-    text-align: center; /* Centra el texto dentro del div */
+    text-align: justify; /* Centra el texto dentro del div */
 }
 
 /* Centrar las imágenes */
