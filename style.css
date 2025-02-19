@@ -23,7 +23,7 @@ body {
     width: 100%;
     /*height: auto;*/
    /* display: block;*/
-    margin: 10px; /* Elimina márgenes */
+    margin: right: 10px left: 10px; /* Elimina márgenes */
     padding: 5px;
 }
 
