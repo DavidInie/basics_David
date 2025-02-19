@@ -1,35 +1,45 @@
 a {
-    color: rgb(0, 223, 216); /* Color turquesa para los enlaces*/
+    color: rgb(0, 223, 216); /* Color turquesa para los enlaces */
     text-decoration: none; /* Quita el subrayado */
 }
 
-
 /* Fondo negro en los márgenes laterales */
 body {
-    background-color: rgb(51, 51, 51); /* Fondo negro en toda la página */
-    margin: 0; /* Elimina márgenes por defecto del navegador */
+    background-color: rgb(51, 51, 51); /* Fondo oscuro en toda la página */
+    margin: 0;
     padding: 0;
 }
 
 /* Contenido central con márgenes laterales visibles */
 .margen {
-    margin: 0 auto; /* Centra el div horizontalmente */
-    width: 33%; /* Ajusta el ancho del contenido (modifica este valor si quieres más o menos margen) */
-    background-color: white; /* Color de fondo del área de contenido */
-    text-align: justify; /* Justifica el texto */
-    padding: 20px; /* Añade espacio dentro del contenedor */
+    margin: 0 auto;
+    width: 33%;
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+    position: relative; /* Necesario para posicionar la última imagen abajo */
 }
 
-
-.img1 {
-    width: 100%; /* Ocupa todo el ancho del contenedor */
-    height: auto; /* Mantiene la proporción original de la imagen */
+/* Primera imagen: ocupa todo el ancho del contenedor */
+.margen img:first-of-type {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto; /* Añade margen inferior y centra horizontalmente */
 }
 
-
-img {
+/* Segunda imagen: se queda como está */
+.margen img:nth-of-type(2) {
     display: block;
     margin: 20px auto;
     max-width: 100%;
     height: auto;
+}
+
+/* Tercera imagen: pegada abajo del contenedor */
+.margen img:last-of-type {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; /* Quita el margen inferior para que quede pegada al final */
 }
